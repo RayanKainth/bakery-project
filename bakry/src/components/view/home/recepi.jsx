@@ -13,8 +13,8 @@ const Recepi = () => {
     <div className="container">
         <h2 className='pt-[50px] text-center lg:text-start lg:pt-[100px] font-poppins text-[42px] md:text-[50px] font-semibold pb-[30px] lg:pb-[65px]'>OUR HOT SELLING RECEPI</h2>
         <div className=' grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 justify-items-center'>
-          {Recepie.map(recepi => (
-         <Recepies key={recepi.id} price={recepi.price} image={recepi.image} name1={recepi.name1} image1={recepi.image1}/>
+          {Recepie.map((recepis, id) => (
+         <Recepies key={id} recepidata={recepis}/>
           ))}
         </div>
     </div>

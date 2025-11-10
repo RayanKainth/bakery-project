@@ -17,9 +17,7 @@ export default {
       padding: {
         DEFAULT: "1rem",   // 16px on mobile
         sm: "1.5rem",      // 24px on small screens
-        lg: "2rem",        // 32px on large screens
-        xl: "3rem",        // 48px on extra-large screens
-        "2xl": "4rem",     // 64px padding on 1920px screens
+       
       },
     },
     extend: {
