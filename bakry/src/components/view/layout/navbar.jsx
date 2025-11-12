@@ -14,7 +14,7 @@ const Navbar = () => {
        alt="Company logo"/>
        </div>
        <div className="hidden lg:max-w-[630px] lg:flex items-center justify-end flex-1">
-        <ul className='flex gap-10 font-poppins'>
+        <ul className='flex gap-10 font-poppins cursor-pointer'>
           <li>Home</li>
           <li>Shop</li>
           <li>About</li>
